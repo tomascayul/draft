@@ -7,17 +7,21 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/oclock.css">
+	<link rel="stylesheet" href="css/informationCourse.css">
 
 </head>
 <body>
 	<div class="contenedor" id="contenedor">
 			<section class="tarjeta">	
 			<section>
-				<h2 id="titleCap"> Capacitaciones Nature presenta:</h2>
+				<h2 id="titleCap"> Capacitaciones Tomás presenta:</h2>
 				<hr/>
 				<h2 id="titleWhy"> Apreder R te será especialmente útil para generar tablas y gráficos de forma rápida y sencilla</h2>
 				<input type="submit" value="Accede AHORA" id="btnSend" align="center">
-			</section>		
+			</section>	
+
+			
 			<section class="slider_banner">
 
 				<!-- imagenes de portadas -->
@@ -33,23 +37,52 @@
 				<a href="#" id="banner_next" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
 			</section>
 
+
+			<div class="row">
+			
+				<div class="leftcolumn">
+
+				<p class="fechaInicio">Miercoles 20 febrero 2018 <br>
+				a las 10:00h</p>
+
+					<div class="cajaFoto">				
+						<img class="foto" src="img/foto_perfil.jpeg" width="180" alt="">
+					</div>
+				<div class="myname">
+				<p>Presentado por:</p> <br>
+				<h4>Tomás <br>
+				Cayul</h4>
+				</div>
+
+				</div>
+
+			<div class="rightcolumn">
+
+				<section>
+						<div class="contador">
+						<h2 id="textCount"> El curso comenzara en: </h2>
+							<div id="reloj"></div>	
+						</div>
+				</section>
+
 			<section class="slider_info">
 				
 				<section id="informacion" class="informacion">
 					<article id="info">
 						<div class="slide active">
-							<h2 class="startCurso">El curso comenzara en:</h2>
-
-							<h2>Voy a enseñarte</h2>
 							
-							<ul>
-							  <li>Elemento</li>
-							  <li>Elemento</li>
+							<h2 class="voyEnsen">Voy a enseñarte</h2>
+							
+							<ul class="contenidos">
+							  <li>Instalación de Herramientas</li>
+							  <li>Introducción al Lenguaje</li>
+							   <li>Utilización del Lenguaje</li>
+							  <li>Acercamiento al Sistema de Gráficos de R</li>
 							</ul>
 							
 						</div>
 
-						
+
 						
 					</article>
 					
@@ -58,10 +91,19 @@
 					</div>
 				</section>
 			</section>
+			</div>
 
+			<section class="inscribete">
+				<input type="submit" value="Inscribete Ahora!" id="btnSend" align="center">
+			</section>
+
+		
 			<section class="redes-sociales">
-				<a href="https://github.com/jogonzalezmor/portafolio" class="github"><span class="fa fa-github"></span></a>
-				<a href="https://plus.google.com/+Jos%C3%A9Gonz%C3%A1lezMorales1980" class="google"><span class="fa fa-google-plus-official"></span></a>
+				
+				<a href="https://www.facebook.com/TomasCayul" target="_blank" class="facebook"><span class="fa fa-facebook"></span></a>
+
+				<a href="https://www.facebook.com/TomasCayul" target="_blank" class="facebook"><span class="fa fa-facebook"></span></a>
+						
 				<a href="https://cl.linkedin.com/in/josegonzalezmorales" class="linkedin"><span class="fa fa-linkedin"></span></a>
 
 			</section>
@@ -71,5 +113,6 @@
 
 	<script src="js/jquery.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/oclock.js"></script>
 </body>
 </html>

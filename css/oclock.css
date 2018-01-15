@@ -1,0 +1,20 @@
+
+#reloj{
+	display:block;
+	font-size: 23px;
+	padding: 8px 8px;
+	background: black;
+	border: 1.5px solid #4B8BF5;
+	margin:20px auto; 
+	color: white;
+	width: 50%;
+	margin-right: 3%;
+	text-align: center;
+}
+
+#textCount{
+	padding:20px 20px 0px 30px;
+	text-align: right;
+	font-size: 25px;	
+}
+

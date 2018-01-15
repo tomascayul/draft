@@ -1,0 +1,67 @@
+
+
+.leftcolumn {   
+    float: left;
+    width: 40%;
+    color: white;
+    background-color: #616161;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 60%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.cajaFoto{
+	padding: 20%;
+}
+.foto{
+	border-radius: 150px;
+	border: 6px solid #ccc;
+	/*margin-top: px;*/
+}
+
+
+.contenidos{
+    text-align: left;
+}
+
+.voyEnsen{
+    text-align: left;
+}
+
+.myname{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.myname p{
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: -25px;
+}
+
+.fechaInicio{
+     font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
