@@ -4,7 +4,9 @@
     float: left;
     width: 40%;
     color: white;
-    background-color: #616161;
+    background-color: #2E302D;
+        position: relative;
+
 }
 
 /* Right column */
@@ -29,6 +31,8 @@
     }
 }
 
+
+
 .cajaFoto{
 	padding: 20%;
 }
@@ -36,6 +40,8 @@
 	border-radius: 150px;
 	border: 6px solid #ccc;
 	/*margin-top: px;*/
+    display: inline-flex;
+    vertical-align: middle;
 }
 
 
@@ -59,9 +65,26 @@
 }
 
 .fechaInicio{
-     font-size: 15px;
+    font-size: 15px;
     color: white;
     text-align: center;
     margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    margin-left: 30px;
 }
+
+#iconCalendar{
+    display: block;
+    float: left;
+    margin: 10px 0px 5px 10px;
+    width: 80px;
+    height: auto;
+}
+
+#lineDotted{
+    border:1px dotted white;  
+}
+
 

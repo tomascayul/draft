@@ -7,7 +7,8 @@
 }
 
 body {
-	background: url('../img/bg2.png');
+	/*background: url('../img/bg2.png');*/
+	background: white;
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Open Sans', Sans-serif, Arial, Helvetica;
@@ -16,27 +17,44 @@ body {
 hr{
 	width: 40%;
 	margin-left:30%;
+	color: #5F6471;
 }
 
-#titleCap{
+#nameOrg{
 	padding: 20px 20px;
 	font-size: 18px;
 	text-align: center;
+	color: #5F6471;
 }
 
-#titleWhy{
+#resaltadoHeader{
+	color:#03C0AA;
+	text-transform: uppercase;
+    font-style: italic;
+}
+
+#rSoft{
+	font-size: 35px;
+	color: #2167BA;
+}
+
+#titleHeader{
 	padding:20px 20px 5px 30px;
 	text-align: center;
-	font-size: 25px;	
+	font-size: 25px;
+	text-transform: uppercase
+	
 }
 
-#btnSend {
+#btnSubsc {
 	display:block;
 	font-size: 18px;
 	padding: 14px 10px;
-	background: #fff;
+	background: #03C0AA;
 	border: 1.3px solid #4B8BF5;
 	margin:20px auto; 
+	color: white;
+	border-radius: 10px;
 }
 
 
