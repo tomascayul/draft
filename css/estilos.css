@@ -42,8 +42,8 @@ hr{
 	padding:20px 20px 5px 30px;
 	text-align: center;
 	font-size: 25px;
-	text-transform: uppercase
-	
+	text-transform: uppercase;
+	color: #4F4E47;
 }
 
 #btnSubsc {
@@ -76,7 +76,22 @@ a { text-decoration: none; }
 	overflow: hidden;
 	z-index: 1000;
 	width: 100%;
+
 }
+
+#btnSend{
+	width: 100%;
+	/*padding: 5px;*/
+	margin-top: 10px;
+	padding: 14px 10px;
+	background: #03C0AA;
+	font-size: 18px;
+	color: white;
+	border-radius: 10px;
+	border: 1.3px solid #4B8BF5;
+	margin:20px auto; 
+}
+
 
 /*----------------------------*/
 /*------- Slider Banner ------*/
@@ -147,6 +162,7 @@ a { text-decoration: none; }
 	left: 100%;
 	position: absolute;
 	padding: 20px 80px;
+	background: #F1F1F1;
 }
 
 /* Flechas Slider*/
@@ -163,6 +179,7 @@ a { text-decoration: none; }
 
 ul li{
 	list-style-image: url("img/ok.png"); 
+	color: #4A6064;
 }
 
 
@@ -175,7 +192,7 @@ ul li{
 .redes-sociales {
 	width: 100%;
 	text-align: center;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 
 .redes-sociales a {
